@@ -1,0 +1,50 @@
+/* Resetting default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk gambar profil */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk konten halaman */
+section {
+    padding: 20px 0;
+}
+
+h1, h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Styling form kontak */
+form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tombol */
+button {
+    padding: 10px 20px;
+    background-color: #005A50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #023731;
+}
